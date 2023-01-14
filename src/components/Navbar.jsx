@@ -7,7 +7,7 @@ function Navbar() {
 <main>
     <section>
 <nav className="pt-5 flex justify-between">
-    <h1 className="text-xl font-burtons pl-10">Fave.</h1>
+    <h1 className="text-2xl font-burtons pl-10">Fave.</h1>
     <ul className="flex justify-between">
         <li>
             <BsFillMoonStarsFill className="cursor-pointer text-2xl" />
@@ -16,10 +16,10 @@ function Navbar() {
             <Link to="/homepage" className="pl-5">Home</Link>
         </li>
         <li>
-            <Link to="/about" className="pl-5">About</Link>
+            <Link to="/projects" className="pl-5">Projects</Link>
         </li>
         <li>
-            <Link to="/contact" className="px-5">Contact</Link>
+            <Link to="/contactme" className="px-5">ContactMe</Link>
         </li>
     </ul>
 </nav>
