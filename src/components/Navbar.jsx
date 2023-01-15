@@ -2,12 +2,13 @@ import React from "react";
 import { Link } from "react-router-dom";
 import { BsFillMoonStarsFill } from "react-icons/bs";
 
+
 function Navbar() {
     return(
-<main className="bg-[#fff7ed]">
+<main className="bg-[#fff7ed]" >
     <section>
 <nav className="pt-5 flex justify-between">
-    <h1 className="text-2xl font-burtons pl-10">Fave.</h1>
+    <h1 className="hero text-2xl font-burtons pl-10">Fave.</h1>
     <ul className="flex justify-between">
         <li>
             <BsFillMoonStarsFill className="cursor-pointer text-2xl" />

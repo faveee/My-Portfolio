@@ -2,16 +2,16 @@ import './App.css';
 import HomePage from './pages/HomePage';
 import Projects from './pages/Projects';
 import Navbar from './components/Navbar';
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import ContactMe from './pages/ContactMe';
-import DarkTheme from './components/DarkTheme';
+import Footer from "./components/Footer";
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 
 function App() {
   return (
         <div className='kola'>
           <Router>
           <Navbar />
-          <DarkTheme />
+          <Footer />
             <Routes>
               <Route path="/" element={<HomePage />} />
               <Route path="/about" element={<Projects />} />
