@@ -11,12 +11,12 @@ function App() {
         <div className='kola'>
           <Router>
           <Navbar />
-          <Footer />
             <Routes>
               <Route path="/" element={<HomePage />} />
-              <Route path="/about" element={<Projects />} />
+              <Route path="/projects" element={<Projects />} />
               <Route path="/contactme" element={<ContactMe />} />
           </Routes>
+          <Footer />
           </Router>
         </div>
       )

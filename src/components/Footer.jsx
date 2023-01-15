@@ -5,7 +5,7 @@ function Footer() {
     return(
         <section>
             <div>
-            <h6 className="font-thin flex justify-items-end">Designed and Developed by Fave</h6>
+            <h6 className="font-burtons text-black py-10 text-center">Designed and Developed by Fave</h6>
             </div>
             <div>
             <Link to="/homepage"></Link>

@@ -5,7 +5,7 @@ import { BsFillMoonStarsFill } from "react-icons/bs";
 
 function Navbar() {
     return(
-<main className="bg-[#fff7ed]" >
+<main className="text-black" >
     <section>
 <nav className="pt-5 flex justify-between">
     <h1 className="hero text-2xl font-burtons pl-10">Fave.</h1>
@@ -14,7 +14,7 @@ function Navbar() {
             <BsFillMoonStarsFill className="cursor-pointer text-2xl" />
         </li>
         <li>
-            <Link to="/homepage" className="pl-5">Home</Link>
+            <Link to="/" className="pl-5">Home</Link>
         </li>
         <li>
             <Link to="/projects" className="pl-5">Projects</Link>
