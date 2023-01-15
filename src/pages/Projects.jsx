@@ -4,9 +4,13 @@ import "./Projects.css";
 function Projects() {
     return(
 <div className="about_section m-20 ">
-    <h3 className="text-5xl text-center text-teal-800 font-extrabold">About</h3>
-    <p className="font-sm pt-20">Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse distinctio nostrum consequuntur ab deserunt rem soluta exercitationem sit, laudantium culpa amet quae placeat non assumenda. Sapiente aspernatur dolores laboriosam officiis.</p>
+    <h2>Somethings i've built</h2>
+    <div>
+        <image src width={100} height={100} />
+        <h3>SignUp Page</h3>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Facere vero rem mollitia ipsa earum iusto iure possimus minima debitis explicabo aliquam aperiam sed, enim optio. Quam provident quod tempora odio.</p>
 
+    </div>
 </div>
     )
 }

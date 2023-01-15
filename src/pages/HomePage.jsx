@@ -1,23 +1,24 @@
 import React from "react";
+import "./Homepage.css";
 
 function HomePage() {
     return(
         <body>
 <div className="m-20 p-20 ">
-    <h2 className="text-5xl text-left text-teal-800 font-extrabold">Favour Abatan</h2>
-    <h3 className="text-3xl font-medium leading-8 py-3">Developer.</h3>
-    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eaque fugit eveniet, velit quidem cum sequi quos ea aliquid voluptate. Veniam facilis rem atque consectetur voluptates a natus porro nesciunt ipsam!</p>
+    <h2 className="text-5xl text-left text-teal-800 font-extrabold m-0">Favour Abatan</h2>
+    </div>
+    <div className="hero">
+        <ul className="dynamic-texts">
+        <li><span>Developer.</span></li>
+        <li><span>Freelancer.</span></li>
+        </ul>
 </div>
-<nav className="flex justify-between">
-    <ul className="flex justify-between">
+<p className="pl-5">I'm a software Developer, able to build a web presence from scratch.</p>
+<nav className="pt-5">
+    <ul>
         <li>
-            <a className="bg-cyan-500 text-white px-4 py-2 pl-5" href="#">
+            <a  className="bg-gradient-to-r from-cyan-500 to-blue-500 text-white px-4 py-2 ml-10 rounded-lg" href="https://drive.google.com/file/d/1YhOE-bDOXwyOriDFzqmabV7hjrmHv_Iz/view">
                 Download Resume
-            </a>
-        </li>
-        <li>
-            <a className="bg-cyan-500 text-white px-4 py-2 pl-5" href="#">
-                ContactMe
             </a>
         </li>
     </ul>

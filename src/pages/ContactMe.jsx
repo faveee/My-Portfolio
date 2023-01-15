@@ -1,7 +1,5 @@
 import React from "react";
 import { AiOutlineTwitter, AiFillGithub, AiFillLinkedin} from "react-icons/ai";
-import { BiPhoneCall } from "react-icons/bi";
-import { ImLocation } from "react-icons/im";
 
 function ContactMe() {
     return(
@@ -24,3 +22,4 @@ function ContactMe() {
 }
 
 export default ContactMe
+
