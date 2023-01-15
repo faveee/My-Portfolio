@@ -4,7 +4,7 @@ import { BsFillMoonStarsFill } from "react-icons/bs";
 
 function Navbar() {
     return(
-<main>
+<main className="bg-[#fff7ed]">
     <section>
 <nav className="pt-5 flex justify-between">
     <h1 className="text-2xl font-burtons pl-10">Fave.</h1>
