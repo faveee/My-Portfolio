@@ -1,5 +1,6 @@
 import React from "react";
 import "./Homepage.css";
+import hero from "../../src/assets/hero.png"; 
 
 function HomePage() {
 
@@ -13,6 +14,7 @@ function HomePage() {
         <li><span>Developer.</span></li>
         <li><span>Freelancer.</span></li>
         </ul>
+        <img src={hero} alt="Hero"/>
 </div>
 <p className="pl-5 text-black py-5">I'm a software Developer, able to build a web presence from scratch.</p>
 <nav className="pt-5">
