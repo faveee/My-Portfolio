@@ -49,7 +49,7 @@ function Projects() {
         <a href="https://github.com/faveee/Sparzly-Food.git" >
 <AiFillGithub />
 </a>
-<a href="#" >
+<a href="https://www.google.com" >
 <FiExternalLink />
 </a>
 </div>
@@ -63,7 +63,7 @@ function Projects() {
         <a href="https://github.com/faveee" >
 <AiFillGithub />
 </a>
-<a href="#" >
+<a href="https://www.google.com" >
 <FiExternalLink />
 </a>
 </div>
