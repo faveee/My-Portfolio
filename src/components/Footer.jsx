@@ -4,7 +4,7 @@ import { AiOutlineCopyright } from "react-icons/ai";
 function Footer() {
     return(
         <section>
-            <div className="flex flex-row justify-center py-10">
+            <div className="flex flex-row justify-center py-10 pb-2">
             <AiOutlineCopyright className="text-black"/>
             <p className="font-burtons text-black text-center">2023 - Favour Abatan</p>
             </div>
