@@ -10,7 +10,7 @@ function Projects() {
     return(
         <section className="text-black">
 <div className="about_section mb-5 mt-20">
-    <h2 className="text-5xl font-extrabold text-red-500 pb-10 text-center">Somethings i've built</h2>
+    <h2 className="text-5xl font-extrabold text-red-500 pb-10 text-center">Featured Projects</h2>
     </div>
     <div className="flex flex-col gap-3">
     <div className="text-left shadow-lg p-11 rounded-xl my-[60px] mx-11">

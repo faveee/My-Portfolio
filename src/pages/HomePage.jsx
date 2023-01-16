@@ -25,10 +25,10 @@ function HomePage() {
 </p>
 </div>
 <div className="flex flex-col md:flex-row justify-between gap-4">
-<p className="pl-5 pt-20 text-black">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Placeat fugit laborum cumque qui. Ex, ut voluptatem? Magni aspernatur beatae accusantium dolorum quidem qui eveniet inventore illum dignissimos. Voluptate non voluptatem culpa nesciunt, labore eligendi, consequatur dolor totam, officia maiores laborum deserunt. Voluptas culpa fugiat placeat sunt maiores? Nemo, aperiam ducimus.</p>
+<p className="pl-5 pt-20 text-black">I'm a software developer able to build a web presence from scratch. Demostrated a particular aptitude for meticulously paying attention to details. I'm passionate about doing an outstanding job and have received multiple compliments from my past managers for collaborative, quick critical thinking, and logical technical skills to improve work efficiency.</p>
 <img className="rounded-full flex ml-auto" src={Image} alt="Hero"/>
 </div>
-<nav className="mt-5">
+<nav className="mt-10">
     <ul>
         <li>
             <a  className="bg-gradient-to-r from-cyan-500 to-blue-500

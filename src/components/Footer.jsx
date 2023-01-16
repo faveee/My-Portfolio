@@ -4,9 +4,9 @@ import { AiOutlineCopyright } from "react-icons/ai";
 function Footer() {
     return(
         <section>
-            <div>
-            <h6 className="font-burtons text-black py-10 text-center">
-            <AiOutlineCopyright  className="m-auto pl-50"/>2023 - Favour Abatan</h6>
+            <div className="flex flex-row justify-center py-10">
+            <AiOutlineCopyright className="text-black"/>
+            <p className="font-burtons text-black text-center">2023 - Favour Abatan</p>
             </div>
             <div>
             <Link to="/homepage"></Link>
