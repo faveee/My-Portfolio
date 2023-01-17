@@ -1,0 +1,11 @@
+#light {
+    background-color: #fff;
+}
+
+#dark {
+    background-color:#192734;
+}
+
+#dark .Nav-Head {
+    color: white;
+}
