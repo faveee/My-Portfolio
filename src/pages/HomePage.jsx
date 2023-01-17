@@ -9,7 +9,7 @@ function HomePage() {
     <h2 className="md:flex-row text-5xl text-left text-teal-800 font-extrabold m-0">Hi there! I'm Favour Abatan</h2>
     </div>
     <div>
-        <p className="text-red-500 pl-5 pb-10 text-4xl">
+        <p className="text-red-500 pl-5 pb-2 text-4xl">
         <Typical
         loop={Infinity}
         wrapper="b"
@@ -25,7 +25,7 @@ function HomePage() {
 </p>
 </div>
 <div className="flex flex-col md:flex-row justify-between gap-4">
-<p className="pl-5 pr-5 pt-20 text-black">I'm a software developer able to build a web presence from scratch. Demostrated a particular aptitude for meticulously paying attention to details. I'm passionate about doing an outstanding job and have received multiple compliments from my past managers for collaborative, quick critical thinking, and logical technical skills to improve work efficiency.</p>
+<p className="px-5 pt-10 text-black">I'm a software developer able to build a web presence from scratch. I have demostrated a particular aptitude for meticulously paying attention to details. I'm passionate about doing an outstanding job and have received multiple compliments from my past managers for collaborative, quick critical thinking, and logical technical skills to improve work efficiency.</p>
 <img className="rounded-full flex ml-auto" src={Image} alt="Hero"/>
 </div>
 <nav className="mt-10">
