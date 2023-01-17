@@ -22,10 +22,10 @@ function App() {
     <ThemeContext.Provider value = {{ theme, toggleTheme }}>
         <div className="App" id={theme} > 
           <Router>
-            <div className=" ">
+          <Navbar />
+          <div className="pl-10 text-xl">
           <ReactSwitch onChange={toggleTheme} checked={theme === "dark"} />
           </div>
-          <Navbar />
             <Routes>
               <Route path="/" element={<HomePage />} />
               <Route path="/projects" element={<Projects />} />
