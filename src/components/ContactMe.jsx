@@ -1,4 +1,4 @@
-import "./ContactMe.css"
+
 import { AiOutlineTwitter, AiFillGithub, AiFillLinkedin} from "react-icons/ai";
 
 function ContactMe() {

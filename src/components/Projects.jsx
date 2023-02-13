@@ -1,4 +1,4 @@
-import "./Projects.css";
+
 import signup from "../../src/assets/signup.png"; 
 import todo from "../../src/assets/todo.png"; 
 import sparzly from "../../src/assets/sparzly.png";

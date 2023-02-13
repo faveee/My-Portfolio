@@ -1,6 +1,6 @@
 import Typical from "react-typical";
 import Image from "../../src/assets/hero.jpg"; 
-import "./HomePage.css";
+
 
 function HomePage() {
     return(
