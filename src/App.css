@@ -1,7 +1,5 @@
-#light .App {
-    background-color: #fff;
-}
 
-#dark .App {
-    background-color:#192734;
+.togglebtn {
+    padding-left: 120px;
+    margin-top: -28px;
 }

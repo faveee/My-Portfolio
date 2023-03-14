@@ -1,11 +1,12 @@
 import Typical from "react-typical";
-import Image from "../../src/assets/hero.jpg"; 
+import Image from "../../src/assets/hero.jpeg"; 
+import "./HeroSection.css";
 
 
 function HomePage() {
     return(
         <section>
-<div className="mt-11 pt-20 pb-10 pl-5 flex justify-between">
+<div className="mt-10 pt-10 pb-10 pl-5 flex justify-between">
     <h2 className="md:flex-row text-5xl text-left text-teal-800 font-extrabold m-0">Hi there! I'm Favour Abatan</h2>
     </div>
     <div>
@@ -25,19 +26,17 @@ function HomePage() {
 </p>
 </div>
 <div className="flex flex-col md:flex-row justify-between gap-4">
-<p className="Namex px-5 pt-10 text-black">I'm a software developer able to build a web presence from scratch. I have demostrated a particular aptitude for meticulously paying attention to details. I'm passionate about doing an outstanding job and have received multiple compliments from my past managers for collaborative, quick critical thinking, and logical technical skills to improve work efficiency.</p>
-<img className="rounded-full flex ml-auto" src={Image} alt="Hero"/>
+<p className="Namex px-5 pt-10">A well rounded Front-end Developer equipped with a diverse and promising skill set able to build a web presence from scratch. Knowledgeable in user interface, testing, and debugging processes. Able to effectively self-manage during independent projects, as well as collaborate in a team setting. Demonstrated a particular aptitude for meticulously paying attention to details.
+</p>
+<img className="rounded-full flex m-auto" src={Image} style={{width: 400, height: 400}} alt="Hero"/>
 </div>
-<nav className="mt-10">
-    <ul>
-        <li>
+<div className="cvbtn mt-10 ">
+    
             <a  className="bg-gradient-to-r from-cyan-500 to-blue-500
- text-white py-3 m-5 px-8 text-center border-double hover:border-double border-4 rounded-lg" href="https://drive.google.com/file/d/1hy8g7S8lfHIFuX_-z4krfZ3SBsBTuQ16/view">
+ text-white py-3 ml-3 px-8 text-center border-double hover:border-double border-4 rounded-lg" href="https://drive.google.com/file/d/1m0qOIh74QMDRz-Ndvc5M0B_4xrZy9zyS/view">
                 Download Resume
             </a>
-        </li>
-    </ul>
-</nav>
+</div>
 </section>
     )
 }

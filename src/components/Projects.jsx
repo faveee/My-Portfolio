@@ -2,14 +2,14 @@
 import signup from "../../src/assets/signup.png"; 
 import todo from "../../src/assets/todo.png"; 
 import sparzly from "../../src/assets/sparzly.png";
-import portfolio from "../../src/assets/portfolio.png";
+import handymanny from "../../src/assets/handymanny.png";
 import { AiFillGithub } from "react-icons/ai";
 import { FiExternalLink } from "react-icons/fi"
 
 function Projects() {
     return(
-        <section className="text-black">
-<div className="about_section mb-5 mt-20">
+        <section id="projects">
+<div className="about_section mb-5 mt-10">
     <h2 className="text-5xl font-extrabold text-red-500 pb-10 text-center">Featured Projects</h2>
     </div>
     <div className="flex flex-col gap-3">
@@ -56,15 +56,15 @@ function Projects() {
 </div>
 </div>
 <div className="ProAbt text-left shadow-lg p-11 rounded-xl my-[60px] mx-11">
-        <img src={portfolio} alt="Portfolio"/>
-        <h3 className="text-lg font-medium pt-8 pb-2">My Portfolio</h3>
-        <p className="font-extralight pb-2">HTML, Css, Javascript, React, Tailwind </p>
-        <p>A personal professional portfoilio designed to showcase featured projects. It has the ability to toggle between light and dark mode.</p>
+        <img src={handymanny} alt="handymanny"/>
+        <h3 className="text-lg font-medium pt-8 pb-2">Handy Manny</h3>
+        <p className="font-extralight pb-2">HTML, Css, Javascript, React, Firebase </p>
+        <p>Handy Manny is an online listing platform for professional and experienced atrisan in Africa. For workshop owners, the platform offers a way to list their business, connect with other professionals and expand their customer base.</p>
         <div className="flex gap-3 pt-5 text-2xl">
-        <a href="https://github.com/faveee/my-portfolio.git" >
+        <a href="https://github.com/faveee/handy-manny.git" >
 <AiFillGithub />
 </a>
-<a href="https://portfolio-favee.vercel.app" >
+<a href="https://handy-manny.vercel.app" >
 <FiExternalLink />
 </a>
 </div>

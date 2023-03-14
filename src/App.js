@@ -11,7 +11,7 @@ import ReactSwitch from 'react-switch';
 export const ThemeContext = createContext("null");
 
 function App() {
-  const [theme, SetTheme] = useState("dark");
+  const [theme, SetTheme] = useState("light");
 
   const toggleTheme = () => {
     SetTheme((curr) => (curr === "light" ? "dark" : "light"));
@@ -22,7 +22,7 @@ function App() {
           <Router>
 
           <Navbar />
-          <div className="pl-5">
+          <div className="togglebtn">
           <ReactSwitch onChange={toggleTheme} checked={theme === "dark"} />
           </div>
             <Routes>
