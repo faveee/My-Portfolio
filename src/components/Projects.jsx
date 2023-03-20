@@ -50,7 +50,7 @@ function Projects() {
         <a href="https://github.com/faveee/Sparzly-Food.git" >
 <AiFillGithub />
 </a>
-<a href="https://www.google.com" >
+<a href="https://sparzly-food.vercel.app/" >
 <FiExternalLink />
 </a>
 </div>
