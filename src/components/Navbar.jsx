@@ -39,7 +39,7 @@ function Navbar() {
             <a href="#projects" alt="projects" className="pl-5">Projects</a>
         </li>
         <li onClick={handleToggle}>
-        <a href="#contact" alt="ContactMe" className="px-5">ContactMe</a>
+        <a href="#contact" alt="Contact" className="px-5">Contact</a>
         </li>
     </ul>
 </div>

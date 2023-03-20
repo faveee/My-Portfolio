@@ -19,7 +19,7 @@ function ContactMe() {
 <a href="https://github.com/faveee" >
 <AiFillGithub />
 </a>
-<a href="https://linkedin.com/in/abatanfavor" >
+<a href="https://www.linkedin.com/in/abatanfavor" >
 <AiFillLinkedin />
 </a>
 </div>
